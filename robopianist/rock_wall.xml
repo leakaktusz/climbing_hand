@@ -1,0 +1,159 @@
+<mujoco model="rock_wall">
+  <default>
+    <default class="/"/>
+  </default>
+  <asset>
+    <texture name="wood_tex" type="2d" builtin="checker" rgb1="0.59999999999999998 0.45000000000000001 0.29999999999999999" rgb2="0.55000000000000004 0.40000000000000002 0.25" width="100" height="100"/>
+    <material name="wood_mat" class="/" texture="wood_tex" reflectance="0.10000000000000001"/>
+    <mesh name="hold_1" class="/" file="Jug_1-7fa9ef1f1bd3d67b96520c9f2a27e84989b5b0aa.STL"/>
+  </asset>
+  <worldbody>
+    <body name="wall" pos="0 0 0">
+      <geom name="wall_geom" class="/" type="box" contype="1" conaffinity="1" size="0.025000000000000001 1 1.5" material="wood_mat" rgba="0.69999999999999996 0.5 0.29999999999999999 1" pos="0.025000000000000001 0 1.5"/>
+    </body>
+    <body name="hold_r0_c1" pos="0.045999999999999999 -0.6008478638207928 0.125">
+      <geom name="//unnamed_geom_1" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r0_c2" pos="0.045999999999999999 -0.34877094588668961 0.125">
+      <geom name="//unnamed_geom_2" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r0_c3" pos="0.045999999999999999 -0.080550971719086206 0.125">
+      <geom name="//unnamed_geom_3" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r0_c7" pos="0.045999999999999999 0.87566554158375653 0.125">
+      <geom name="//unnamed_geom_4" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r1_c0" pos="0.045999999999999999 -0.85547917234222204 0.375">
+      <geom name="//unnamed_geom_5" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r1_c1" pos="0.045999999999999999 -0.57082793046232416 0.375">
+      <geom name="//unnamed_geom_6" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r1_c3" pos="0.045999999999999999 -0.11300600215177878 0.375">
+      <geom name="//unnamed_geom_7" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r1_c6" pos="0.045999999999999999 0.61506093308616117 0.375">
+      <geom name="//unnamed_geom_8" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r2_c0" pos="0.045999999999999999 -0.81735154400089116 0.625">
+      <geom name="//unnamed_geom_9" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r2_c1" pos="0.045999999999999999 -0.64064415152174503 0.625">
+      <geom name="//unnamed_geom_10" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r2_c2" pos="0.045999999999999999 -0.34741765583709033 0.625">
+      <geom name="//unnamed_geom_11" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r2_c4" pos="0.045999999999999999 0.13247477758655135 0.625">
+      <geom name="//unnamed_geom_12" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r2_c7" pos="0.045999999999999999 0.90480684872303563 0.625">
+      <geom name="//unnamed_geom_13" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r3_c1" pos="0.045999999999999999 -0.65275793944226768 0.875">
+      <geom name="//unnamed_geom_14" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r3_c6" pos="0.045999999999999999 0.59430251248325483 0.875">
+      <geom name="//unnamed_geom_15" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r3_c7" pos="0.045999999999999999 0.82886048428882475 0.875">
+      <geom name="//unnamed_geom_16" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r4_c0" pos="0.045999999999999999 -0.91667727415223887 1.125">
+      <geom name="//unnamed_geom_17" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r4_c1" pos="0.045999999999999999 -0.67484257734602771 1.125">
+      <geom name="//unnamed_geom_18" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r4_c5" pos="0.045999999999999999 0.35576613303751292 1.125">
+      <geom name="//unnamed_geom_19" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r4_c7" pos="0.045999999999999999 0.84226061696164689 1.125">
+      <geom name="//unnamed_geom_20" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r5_c0" pos="0.045999999999999999 -0.88329261393453451 1.375">
+      <geom name="//unnamed_geom_21" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r5_c2" pos="0.045999999999999999 -0.39400836989000182 1.375">
+      <geom name="//unnamed_geom_22" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r5_c3" pos="0.045999999999999999 -0.11737259015775557 1.375">
+      <geom name="//unnamed_geom_23" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r5_c5" pos="0.045999999999999999 0.38625880742312718 1.375">
+      <geom name="//unnamed_geom_24" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r6_c0" pos="0.045999999999999999 -0.87591126343353232 1.625">
+      <geom name="//unnamed_geom_25" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r6_c1" pos="0.045999999999999999 -0.63036761346929771 1.625">
+      <geom name="//unnamed_geom_26" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r6_c2" pos="0.045999999999999999 -0.326755143824004 1.625">
+      <geom name="//unnamed_geom_27" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r6_c5" pos="0.045999999999999999 0.39628299062023914 1.625">
+      <geom name="//unnamed_geom_28" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r6_c6" pos="0.045999999999999999 0.6016133564975592 1.625">
+      <geom name="//unnamed_geom_29" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r7_c1" pos="0.045999999999999999 -0.59837225426622209 1.875">
+      <geom name="//unnamed_geom_30" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r7_c4" pos="0.045999999999999999 0.10036597682788295 1.875">
+      <geom name="//unnamed_geom_31" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r7_c5" pos="0.045999999999999999 0.41096487052849273 1.875">
+      <geom name="//unnamed_geom_32" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r7_c6" pos="0.045999999999999999 0.6071966806758099 1.875">
+      <geom name="//unnamed_geom_33" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r7_c7" pos="0.045999999999999999 0.91863826239112789 1.875">
+      <geom name="//unnamed_geom_34" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r8_c2" pos="0.045999999999999999 -0.39565920280850192 2.125">
+      <geom name="//unnamed_geom_35" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r8_c3" pos="0.045999999999999999 -0.078608035156839701 2.125">
+      <geom name="//unnamed_geom_36" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r8_c4" pos="0.045999999999999999 0.15338917179729608 2.125">
+      <geom name="//unnamed_geom_37" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r9_c0" pos="0.045999999999999999 -0.87672815378561753 2.375">
+      <geom name="//unnamed_geom_38" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r9_c3" pos="0.045999999999999999 -0.17833511488406814 2.375">
+      <geom name="//unnamed_geom_39" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r9_c6" pos="0.045999999999999999 0.59629067542572023 2.375">
+      <geom name="//unnamed_geom_40" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r10_c0" pos="0.045999999999999999 -0.92142250256252345 2.625">
+      <geom name="//unnamed_geom_41" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r10_c3" pos="0.045999999999999999 -0.12036235164676407 2.625">
+      <geom name="//unnamed_geom_42" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r10_c4" pos="0.045999999999999999 0.096851129609468997 2.625">
+      <geom name="//unnamed_geom_43" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r10_c5" pos="0.045999999999999999 0.34429749461642645 2.625">
+      <geom name="//unnamed_geom_44" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r11_c0" pos="0.045999999999999999 -0.90245846415555464 2.875">
+      <geom name="//unnamed_geom_45" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r11_c1" pos="0.045999999999999999 -0.59237744761223721 2.875">
+      <geom name="//unnamed_geom_46" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r11_c4" pos="0.045999999999999999 0.11111475891864514 2.875">
+      <geom name="//unnamed_geom_47" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+    <body name="hold_r11_c6" pos="0.045999999999999999 0.63469976269076767 2.875">
+      <geom name="//unnamed_geom_48" class="/" type="mesh" contype="1" conaffinity="1" size="0.050000000000000003 0.040000000000000001" rgba="0.80000000000000004 0.29999999999999999 0.20000000000000001 1" pos="0 0 0" euler="0 0 0" mesh="hold_1"/>
+    </body>
+  </worldbody>
+</mujoco>
